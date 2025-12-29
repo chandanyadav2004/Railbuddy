@@ -25,7 +25,8 @@ export default function Hero() {
       <div className="flex-1 w-full max-w-[600px]">
         <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border border-slate-700 bg-slate-800">
           <img 
-            src="https://images.unsplash.com/photo-1474487585967-7377fdca7f71?auto=format&fit=crop&q=80" 
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEtbhEH64tPwcNTPWGtrenC0BaOF3nTqueil_TAnzb_t1U3ljcqnWcI7CC-WvAPnTczNF3jKmUiA3d1awTIxPuetMW0PY0k7UpInE0LtKWwsurpCaYN2BR4JIOJJSgyQnPXSGsZInMZ1Qgq47u3bOqQKwIudLr6TV76MwEHQ4abfv4mjNGDs0heF4WY_PR7qQimh0N0GTMVH61M7Xkslb7J3NNRpuCgAl-V3_5eiHrHmasp0bxiS3UHLGMYzAfybW7hEEUXOi-dOo
+" 
             className="w-full h-full object-cover opacity-60" 
             alt="Train"
           />

@@ -4,7 +4,8 @@ export default function About() {
       <div className="max-w-[1280px] mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1 w-full aspect-video rounded-2xl overflow-hidden border border-slate-700">
           <img 
-            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80" 
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNE0NG_bJneycMyhsc4EQcMQ_ZUvtqa9NsICgdEG2YV3u-6RotAF0BbWyULX7TUBhdKZP2y81jCdMtJFZMjm2t-BgD7uIVuC5Fp7mVkKb0OBattyb2QxDwWJQv8sHnt830Oust_qGTms65wELjOmvwGd1SEd9WtkGrbY-dZFc6zpH-9wv63n3fNCegwCa3NfhZOti1RY7p-LgXYgGSxmBH2MLmsJxW6eHtCyHyrNi_du65BKuRQR9_d1P8hjoGBKquTtPOFNtK3fc
+" 
             className="w-full h-full object-cover opacity-80" 
             alt="Data"
           />
