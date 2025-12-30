@@ -1,28 +1,25 @@
 @import "tailwindcss";
 
+/* Design Tokens */
 @theme {
-  /* Brand Colors from HTML */
   --color-primary: #135bec;
-  --color-bg-light: #f6f6f8;
   --color-bg-dark: #101622;
   --color-surface: #111722;
   --color-card: #192233;
 
-  /* Typography */
   --font-display: "Space Grotesk", sans-serif;
   --font-body: "Noto Sans", sans-serif;
 }
 
 @layer base {
   body {
-    @apply font-body bg-bg-light text-slate-900 transition-colors duration-300;
+    font-family: var(--font-body);
+    background: var(--color-bg-dark);
+    color: white;
   }
-  .dark body {
-    @apply bg-bg-dark text-white;
-  }
-  h1, h2, h3, h4 {
-    @apply font-display tracking-tight;
+
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
   }
 }
-
-

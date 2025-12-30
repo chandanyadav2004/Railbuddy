@@ -14,7 +14,7 @@ export default function About() {
           <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">About Us</span>
           <h2 className="text-4xl font-bold mt-4 mb-6 font-display">Why Choose RailBuddy?</h2>
           <p className="text-slate-300 text-lg mb-8 leading-relaxed">
-            RailBuddy replaces complex railway forms with a simple natural language interface. Get instant answers about PNR status and seat availability.
+            RailBuddy replaces complex railway forms and captchas with a simple, natural language chat interface. Whether you are a daily commuter or an occasional traveler, get instant answers about PNR status, live train locations, and seat availability without navigating cluttered websites.
           </p>
           <div className="grid grid-cols-2 gap-4">
             {['AI Powered', 'Real-time', 'Secure', 'Responsive'].map(item => (
